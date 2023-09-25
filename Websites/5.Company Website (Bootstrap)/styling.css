@@ -1,0 +1,99 @@
+/*set background*/
+
+body{
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size:cover;
+    font-family: Arvo, serif;
+    
+}
+
+/*logo styling*/
+.logo{
+    height: 45px;
+    padding: 3px;
+    margin-bottom: 20px;
+    position: absolute;
+    top:8px;
+    left:5px;
+}
+
+/*nav-bar styling*/
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+
+
+.nav li{
+    color:white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover{
+    border-bottom: 1px solid green;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+.body_image{
+    height: 100px;
+    width: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+
+.icons p{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.contact{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:100px;
+}
+
+.btn{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    border-left: 1.3px;
+    
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media (max-width:768px){
+    .body_image{
+        height: 70px;
+        width: 70px;
+    }
+}

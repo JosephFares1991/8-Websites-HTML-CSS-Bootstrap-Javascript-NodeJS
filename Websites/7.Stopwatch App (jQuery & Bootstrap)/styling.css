@@ -1,0 +1,73 @@
+body{
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/*styling header*/
+#header h1{
+    text-align: center;
+    font-size: 7vw;
+    padding: 10px;
+}
+/*styling lap div*/
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+
+/*styling time div*/
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+/*Styling controls*/
+#controls{
+    margin-bottom: 100px;
+    margin-left: 30%;    
+}
+
+.col-xs-2{
+    margin-left: 6%
+}
+
+.control{
+    color:white;
+    background-color: #d7A04e;
+    height:10vw;
+    width:10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 3.3vw 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.control:hover{
+    background-color: #fff;
+    color: #d7A04e;
+}
+
+/*Styling laps section*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 30px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+    
+}
+
+.lap-number{
+    float: left;
+    padding: 5px;
+}
+
+.duration{
+    float: right;
+    padding: 5px;
+}

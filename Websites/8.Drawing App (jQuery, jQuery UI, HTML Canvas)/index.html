@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing App</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+    <body>
+        <!--        title-->
+        <div id="header">Drawing App</div>
+
+        <!--        inputs-->
+        <div class="input_container">
+            <!--            color input-->
+            <div class="input" id="color_input">
+                <input type="color" list id="paint_color">
+            </div>
+            <!--            size-->
+            <div class="input" id="thickness_input">
+                <div id="circle"></div>
+            </div>
+
+            <!--            slider-->
+            <div class="input">
+                <div id="slider"></div>
+            </div>       
+        </div>
+        <!--            canvas container-->
+        <div id="container">
+            <canvas id="paint" width="700px", height="400px"></canvas>
+        </div>
+        
+<!--        buttons-->
+        <div class="input_container2">
+<!--            Erase button-->
+            <div class="input2">
+                <span id="erase" class="button">Erase</span>
+            </div>
+            <div class="input2">
+                <span id="save" class="button">Save</span>
+            </div>
+            <div class="input2">
+                <span id="reset" class="button">Reset</span>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/start/jquery-ui.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="javascript.js"></script>
+    </body>
+</html>
